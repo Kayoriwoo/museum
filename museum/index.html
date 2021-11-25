@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Museum</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<header>
-    <div>
-    <img src="pic/Vector1.svg" alt="logo">
-    <p>LOUVRE</p>
-    <p>Visiting</p>
-    <p>Explore</p>
-    <p>Video</p>
-    <p>Tickets</p>
-    <p>Contacts</p>
+<header class="black header-font">
+    <div id="header">
+        <div id="logo">
+        </div>
+        <p class="logo-font font-forum">LOUVRE</p>
+        <div class="font-roboto font-weight-thm" id="header-text">
+            <p>Visiting</p>
+            <p>Explore</p>
+            <p>Video</p>
+            <p>Tickets</p>
+            <p>Contacts</p>
+        </div>
     </div>
 </header>
 <main>
-    <section>
-        <div>
-            <h1>Welcome to the Louvre</h1>
-            <p>From the castle to the museum</p>
-            <button>Discover the Louvre</button>
+    <section class="black welcome-bg">
+        <div id="welcome">
+            <h1 class="welcome-title font-forum">Welcome
+                to the Louvre</h1>
+            <p class="welcome-text font-roboto font-weight-thm">From the castle to the museum</p>
+            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre
+            </button>
         </div>
     </section>
     <section>
@@ -29,7 +35,7 @@
             <h2>Virtual tour</h2>
             <hr>
             <article>
-                <img src="pic/visiting1.jpg" alt="Royal place">
+                <img alt="Royal place" src="pic/visiting1.jpg">
                 <div>
                     <h3>Royal place</h3>
                     <hr>
@@ -38,7 +44,7 @@
                 </div>
             </article>
             <article>
-                <img src="pic/visiting2.jpg" alt="Denon wing">
+                <img alt="Denon wing" src="pic/visiting2.jpg">
                 <div>
                     <h3>Denon wing</h3>
                     <hr>
@@ -47,7 +53,7 @@
                 </div>
             </article>
             <article>
-                <img src="pic/visiting3.jpg" alt="Colonnade perrault">
+                <img alt="Colonnade perrault" src="pic/visiting3.jpg">
                 <div>
                     <h3>Colonnade perrault</h3>
                     <hr>
@@ -56,7 +62,7 @@
                 </div>
             </article>
             <article>
-                <img src="pic/visiting4.jpg" alt="Greek hall">
+                <img alt="Greek hall" src="pic/visiting4.jpg">
                 <div>
                     <h3>Greek hall</h3>
                     <hr>
@@ -65,7 +71,7 @@
                 </div>
             </article>
             <article>
-                <img src="pic/visiting5.jpg" alt="Mona Lisa">
+                <img alt="Mona Lisa" src="pic/visiting5.jpg">
                 <div>
                     <h3>Mona Lisa</h3>
                     <hr>
@@ -74,7 +80,7 @@
                 </div>
             </article>
             <article>
-                <img src="pic/visiting6.jpg" alt="Night palace">
+                <img alt="Night palace" src="pic/visiting6.jpg">
                 <div>
                     <h3>Night palace</h3>
                     <hr>
@@ -93,16 +99,16 @@
                 in the 19th century.</p>
             <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because
                 it looked different.</p>
-            <img src="pic/explore.jpg" alt="Las Meninas">
+            <img alt="Las Meninas" src="pic/explore.jpg">
         </div>
     </section>
     <section>
         <div>
-            <iframe width="1904" height="768" src="https://www.youtube.com/embed/zp1BXPX8jcU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-            </iframe>
+            <!--            <iframe width="1904" height="768" src="https://www.youtube.com/embed/zp1BXPX8jcU"-->
+            <!--                    title="YouTube video player" frameborder="0"-->
+            <!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+            <!--                    allowfullscreen>-->
+            <!--            </iframe>-->
             <h2>Video journey</h2>
             <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or
                 Hammurabi's Code</p>
@@ -113,17 +119,17 @@
             <h2>Buy tickets</h2>
             <hr>
             <div>
-                <img src="pic/tickets.jpg" alt="Shield of Aeneas">
+                <img alt="Shield of Aeneas" src="pic/tickets.jpg">
             </div>
             <div>
                 <p><strong>Ticket type</strong></p>
-                <input id="ticketType1" type="radio" checked>
+                <input checked id="ticketType1" name="ticket" type="radio">
                 <label for="ticketType1">Permanent exhibition</label>
 
-                <input id="ticketType2" type="radio">
+                <input id="ticketType2" name="ticket" type="radio">
                 <label for="ticketType2">Temporary exhibition</label>
 
-                <input id="ticketType3" type="radio">
+                <input id="ticketType3" name="ticket" type="radio">
                 <label for="ticketType3">Combined Admission</label>
             </div>
             <div>
@@ -152,36 +158,36 @@
                 phone: +33(0) 1 40 20 50 50
                 mail: info@louvre.fr
             </address>
-            <img src="pic/contacts.png" alt="Map">
+            <img alt="Map" src="pic/contacts.png">
         </div>
     </section>
 </main>
 <footer>
     <div>
-    <img src="pic/Vector1.svg" alt="logo">
-    <p>LOUVRE</p>
+        <img alt="logo" src="pic/Vector1.svg">
+        <p>LOUVRE</p>
     </div>
     <div>
-    <p>Visiting</p>
-    <p>Explore</p>
-    <p>Video</p>
-    <p>Tickets</p>
-    <p>Contacts</p>
+        <p>Visiting</p>
+        <p>Explore</p>
+        <p>Video</p>
+        <p>Tickets</p>
+        <p>Contacts</p>
     </div>
     <div>
-        <img src="pic/youtube.svg" alt="youtube">
+        <img alt="youtube" src="pic/youtube.svg">
     </div>
     <div>
-        <img src="pic/inst.svg" alt="instagram">
+        <img alt="instagram" src="pic/inst.svg">
     </div>
-        <div>
-        <img src="pic/facebook.svg" alt="facebook">
+    <div>
+        <img alt="facebook" src="pic/facebook.svg">
     </div>
-        <div>
-        <img src="pic/twitter.svg" alt="twitter">
+    <div>
+        <img alt="twitter" src="pic/twitter.svg">
     </div>
-        <div>
-        <img src="pic/pinterest.svg" alt="pinterest">
+    <div>
+        <img alt="pinterest" src="pic/pinterest.svg">
     </div>
 </footer>
 </body>

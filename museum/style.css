@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+}
+
+.black {
+    background-color: #030303;
+}
+
+.font-forum {
+    font-family: 'Forum', cursive;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-weight-thm {
+    font-weight: 100;
+}
+
+section {
+    display: flex;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    height: 200px;
+    margin-left: 200px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0;
+    width: 1900px;
+    height: 200px;
+}
+
+#logo:before {
+    display: block;
+    position: relative;
+    bottom: 4px;
+    content: ' ';
+    background-image: url('pic/Vector1.svg');
+    background-size: 54px 54px;
+    height: 54px;
+    width: 54px;
+    margin-right: 10em;
+}
+
+#header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0;
+    width: 700px;
+    height: 200px;
+    padding: 400px 223px 400px 400px;
+
+}
+
+.logo-font {
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 50px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    margin-left: 110px;
+}
+
+.header-font {
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+#welcome {
+    width: 40em;
+    height: 630px;
+    top: -114px;
+    margin-left: 225px;
+    margin-top: 120px;
+}
+
+.welcome-bg {
+    background: #030303 url("pic/welcom.jpg") no-repeat center right;
+}
+
+.welcome-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: pre;
+}
+
+.welcome-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+#welcome-button {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border: none;
+    background: #710707;
+    border-radius: 10px;
+    width: 360px;
+    height: 75px;
+    margin-top: 70px;
+}
+
+.btn-content-center {
+    justify-content: center;
+}
