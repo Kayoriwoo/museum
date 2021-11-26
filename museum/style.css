@@ -5,6 +5,15 @@
     margin: 0;
 }
 
+.title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 .black {
     background-color: #030303;
 }
@@ -159,15 +168,6 @@ section {
     justify-content: center;
 }
 
-.tour-title {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-
 .title-hr {
     height: 3px;
     left: 0;
@@ -258,22 +258,6 @@ article {
 
 }
 
-.explore-title {
-    width: 660px;
-    height: 90px;
-    left: 0;
-    top: 0;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
 .explore-hr {
     width: 670px;
     height: 3px;
@@ -302,4 +286,17 @@ article {
 
 .explore-section {
     width: 1440px;
+}
+
+.video-text {
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 38px;
+}
+
+.video-content {
+    padding: 33px 60px 5px 0;
 }
