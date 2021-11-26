@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Museum</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="flexColumns.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="black header-font">
@@ -35,76 +36,78 @@ to the Louvre</h1>
             <h2 class="tour-title font-forum gold">Virtual tour</h2>
             <hr class="title-hr tour-hr">
             <div id="articles">
-            <article>
-                <img alt="Royal place" src="pic/visiting1.jpg">
-                <div>
-                    <h3 class="font-forum">Royal palace</h3>
-                    <hr>
-                    <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
-            <article>
-                <img alt="Denon wing" src="pic/visiting2.jpg">
-                <div>
-                    <h3 class="font-forum">Denon wing</h3>
-                    <hr>
-                    <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
-            <article>
-                <img alt="Colonnade perrault" src="pic/visiting3.jpg">
-                <div>
-                    <h3 class="font-forum">Colonnade perrault</h3>
-                    <hr>
-                    <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
-            <article>
-                <img alt="Greek hall" src="pic/visiting4.jpg">
-                <div>
-                    <h3 class="font-forum">Greek hall</h3>
-                    <hr>
-                    <p  class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p  class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
-            <article>
-                <img alt="Mona Lisa" src="pic/visiting5.jpg">
-                <div>
-                    <h3 class="font-forum">Mona Lisa</h3>
-                    <hr>
-                    <p  class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p  class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
-            <article>
-                <img alt="Night palace" src="pic/visiting6.jpg">
-                <div>
-                    <h3 class="font-forum">Night palace</h3>
-                    <hr>
-                    <p  class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
-                    <p  class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
-                </div>
-            </article>
+                <article>
+                    <img alt="Royal place" src="pic/visiting1.jpg">
+                    <div>
+                        <h3 class="font-forum">Royal palace</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
+                <article>
+                    <img alt="Denon wing" src="pic/visiting2.jpg">
+                    <div>
+                        <h3 class="font-forum">Denon wing</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
+                <article>
+                    <img alt="Colonnade perrault" src="pic/visiting3.jpg">
+                    <div>
+                        <h3 class="font-forum">Colonnade perrault</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
+                <article>
+                    <img alt="Greek hall" src="pic/visiting4.jpg">
+                    <div>
+                        <h3 class="font-forum">Greek hall</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
+                <article>
+                    <img alt="Mona Lisa" src="pic/visiting5.jpg">
+                    <div>
+                        <h3 class="font-forum">Mona Lisa</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
+                <article>
+                    <img alt="Night palace" src="pic/visiting6.jpg">
+                    <div>
+                        <h3 class="font-forum">Night palace</h3>
+                        <hr>
+                        <p class="tour-text font-roboto font-weight-thm">360° Virtual tour</p>
+                        <p class="tour-text2 font-roboto font-weight-thm">Google Street Panorama View </p>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
     <section class="black">
-        <div  id="explore">
-            <h2 class="explore-title font-forum">Picture explore</h2>
-            <hr class="explore-hr">
-            <div class="font-roboto font-weight-thm explore-text">
-            <p class="explore-text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
-            <p class="explore-text">It was cleaned in 1984 to remove a <span class="white-gold">"yellow veil"</span> of dust that had gathered since the previous restoration
-                in the 19th century.</p>
-            <p class="explore-text" id="explore-text3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because
-                it looked different.</p>
+        <div class="explore-section">
+            <div class="two-column-section">
+                <div class="two-column-child">
+                    <h2 class="explore-title font-forum">Picture explore</h2>
+                    <hr class="explore-hr">
+                    <div class="font-roboto font-weight-thm explore-text">
+                        <p class="explore-text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                        <p class="explore-text">It was cleaned in 1984 to remove a <span class="white-gold">"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                        <p class="explore-text" id="explore-text3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                    </div>
                 </div>
-            <div class="explore-pic">
-            <img alt="Las Meninas" src="pic/explore.jpg">
+                <div class="two-column-child">
+                    <img alt="Las Meninas" src="pic/explore.jpg">
+                </div>
             </div>
         </div>
     </section>
