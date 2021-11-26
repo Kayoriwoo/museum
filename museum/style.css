@@ -8,6 +8,9 @@
 .black {
     background-color: #030303;
 }
+.white {
+    background: white;
+}
 
 .font-forum {
     font-family: 'Forum', cursive;
@@ -138,4 +141,104 @@ section {
 
 .btn-content-center {
     justify-content: center;
+}
+
+.tour-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    white-space: pre;
+}
+
+.title-hr {
+    height: 3px;
+    left: 0;
+    margin-top: 15px;
+    background: #710707;
+    border-radius: 0;
+    border: none;
+}
+
+hr {
+    width: 300px;
+    height: 2px;
+    left: 0;
+    top: 354px;
+    border: none;
+    background: #710707;
+    border-radius: 0;
+}
+
+.tour-hr {
+    width: 1440px;
+}
+
+#tour {
+    height: 1190px;
+    top: -114px;
+    margin-left: 225px;
+    margin-top: 100px;
+}
+
+h3 {
+    width: 440px;
+    height: 35px;
+    left: 0;
+    top: 310px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.tour-text {
+    width: 165px;
+    height: 26px;
+    left: 0;
+    top: 366px;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tour-text2 {
+    width: 300px;
+    height: 21px;
+    left: 0;
+    top: 402px;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+#articles {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+}
+article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 90px 57px 0 0;
+
 }
