@@ -29,12 +29,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .font-weight-thm {
     font-weight: 100;
 }
 
 section {
     display: flex;
+    padding-bottom: 70px;
 }
 
 #logo {
@@ -42,7 +47,7 @@ section {
     align-items: center;
     border-radius: 0;
     height: 200px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
 
 #header {
@@ -57,13 +62,14 @@ section {
 #logo:before {
     display: block;
     position: relative;
-    bottom: 4px;
+    bottom: 2px;
     content: ' ';
     background-image: url('pic/Vector1.svg');
-    background-size: 54px 54px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
     height: 54px;
     width: 54px;
-    margin-right: 10em;
+    margin-right: 11em;
 }
 
 #header-text {
@@ -73,8 +79,11 @@ section {
     border-radius: 0;
     width: 700px;
     height: 200px;
-    padding: 400px 223px 400px 400px;
+    padding: 400px 213px 400px 400px;
+}
 
+#header-text p {
+    margin: 0 40px 0 40px;
 }
 
 .logo-font {
@@ -99,10 +108,8 @@ section {
 
 #welcome {
     width: 40em;
-    height: 630px;
-    top: -114px;
-    margin-left: 225px;
-    margin-top: 120px;
+    height: 560px;
+    margin-top: 115px;
 }
 
 .welcome-bg {
@@ -164,7 +171,7 @@ section {
 .title-hr {
     height: 3px;
     left: 0;
-    margin-top: 15px;
+    margin-top: 20px;
     background: #710707;
     border-radius: 0;
     border: none;
@@ -181,18 +188,15 @@ hr {
 }
 
 .tour-hr {
-    width: 1440px;
+    width: 1434px;
     height: 3px;
 }
 
 #tour {
-    height: 1190px;
-    top: -114px;
-    margin-left: 225px;
-    margin-top: 100px;
+    height: 1120px;
 }
 
-h3 {
+article h3 {
     width: 440px;
     height: 35px;
     left: 0;
@@ -205,8 +209,8 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .tour-text {
@@ -220,15 +224,16 @@ h3 {
     font-size: 22px;
     line-height: 26px;
     color: #000000;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
-.tour-text2 {
+.tour-text + p {
     width: 300px;
     height: 21px;
     left: 0;
     top: 402px;
+    margin-top: 10px;
 
     font-style: normal;
     font-weight: 200;
@@ -249,13 +254,8 @@ article {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 90px 57px 0 0;
+    padding: 80px 57px 0 0;
 
-}
-
-.explore-section {
-    width: 1500px;
-    margin: 100px 0 0 225px;
 }
 
 .explore-title {
@@ -277,8 +277,8 @@ article {
 .explore-hr {
     width: 670px;
     height: 3px;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 25px;
+    margin-bottom: 75px;
 }
 
 .explore-text {
@@ -286,7 +286,7 @@ article {
     height: 77px;
     left: 0;
     top: 193px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 
     font-style: normal;
     font-weight: 300;
@@ -300,8 +300,6 @@ article {
     width: 670px;
 }
 
-.explore-pic {
-    float: right;
-    margin-top: -265px;
-    margin-bottom: 300px;
+.explore-section {
+    width: 1440px;
 }
