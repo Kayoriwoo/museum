@@ -29,8 +29,7 @@
             <h1 class="welcome-title font-forum">Welcome
 to the Louvre</h1>
             <p class="welcome-text font-roboto font-weight-thm">From the castle to the museum</p>
-            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre
-            </button>
+            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre</button>
         </div>
     </section>
     <section class="white">
@@ -125,47 +124,58 @@ to the Louvre</h1>
             </iframe>
             <div class="two-column-section video-content">
                 <div class="two-column-child">
-            <h2 class="font-forum title gold">Video journey</h2>
+                    <h2 class="font-forum title gold">Video journey</h2>
                 </div>
                 <div class="two-column-child">
-            <p class="video-text font-roboto font-weight-thm">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or
-                Hammurabi's Code</p>
+                    <p class="video-text font-roboto font-weight-thm">Enter and visit one of the most famous museums in
+                        the world and enjoy masterpieces such as Mona Lisa or
+                        Hammurabi's Code</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="black">
-        <div>
-            <h2>Buy tickets</h2>
-            <hr>
-            <div>
-                <img alt="Shield of Aeneas" src="pic/tickets.jpg">
-            </div>
-            <div>
-                <p><strong>Ticket type</strong></p>
-                <input checked id="ticketType1" name="ticket" type="radio">
-                <label for="ticketType1">Permanent exhibition</label>
-
-                <input id="ticketType2" name="ticket" type="radio">
-                <label for="ticketType2">Temporary exhibition</label>
-
-                <input id="ticketType3" name="ticket" type="radio">
-                <label for="ticketType3">Combined Admission</label>
-            </div>
-            <div>
-                <p><strong>Amount</strong></p>
-                <p>Basic 18+</p>
-                <div>
-                    <span>-</span><span>1</span><span>+</span>
+        <div id="tickets">
+            <h2 class="title font-forum">Buy tickets</h2>
+            <hr class="tickets-hr">
+            <div class="two-column-section">
+                <div class="two-column-child">
+                    <img alt="Shield of Aeneas" src="pic/tickets.jpg">
                 </div>
-                <p>Senior 65+</p>
-                <div>
-                    <span>-</span><span>1</span><span>+</span>
+                <div class="two-column-child">
+                    <div class="two-column-section">
+                        <div class="two-column-child tickets-text font-roboto ticket-type">
+                            <p class="tickets-title"><strong>Ticket Type</strong></p>
+                            <div>
+                                <input checked id="ticketType1" name="ticket" type="radio">
+                                <label for="ticketType1">Permanent exhibition</label>
+                            </div>
+                            <div>
+                                <input id="ticketType2" name="ticket" type="radio">
+                                <label for="ticketType2">Temporary exhibition</label>
+                            </div>
+                            <div>
+                                <input id="ticketType3" name="ticket" type="radio">
+                                <label for="ticketType3">Combined Admission</label>
+                            </div>
+                        </div>
+                        <div class="two-column-child tickets-text font-roboto" id="amount">
+                            <p class="tickets-title"><strong>Amount</strong></p>
+                            <div>
+                            <p>Basic 18+</p>
+                                <div class="rectangle">  <span>-</span>      1      <span>+</span>  </div>
+                            </div>
+                            <div class="senior">
+                            <p>Senior 65+</p>
+                                <div class="rectangle">  <span>-</span>      1      <span>+</span>  </div>
+                            </div>
+                            <p class="tickets-title font-roboto total"><strong>Total €220</strong></p>
+                            <button id="btn-buy" class="font-roboto">Buy now</button>
+                        </div>
+                    </div>
                 </div>
-                <p><strong>Total €220</strong></p>
-                <button>Buy now</button>
             </div>
-        </div>
+            </div>
     </section>
     <section>
         <div>
