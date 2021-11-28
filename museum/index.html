@@ -16,11 +16,11 @@
         </div>
         <p class="logo-font font-forum">LOUVRE</p>
         <div class="font-roboto font-weight-thm" id="header-text">
-            <p>Visiting</p>
-            <p>Explore</p>
-            <p>Video</p>
-            <p>Tickets</p>
-            <p>Contacts</p>
+            <p><a href="#tour">Visiting</a></p>
+            <p><a href="#explore">Explore</a></p>
+            <p> <a href="#video">Video</a></p>
+            <p> <a href="#tickets">Tickets</a></p>
+            <p> <a href="#contacts">Contacts</a></p>
         </div>
     </div>
 </header>
@@ -96,7 +96,7 @@ to the Louvre</h1>
             </div>
         </div>
     </section>
-    <section class="black">
+    <section class="black" id="explore">
         <div>
             <div class="two-column-section explore-section">
                 <div class="two-column-child">
@@ -117,7 +117,7 @@ to the Louvre</h1>
             </div>
         </div>
     </section>
-    <section class="white">
+    <section class="white" id="video">
         <div>
             <iframe class="video" src="https://www.youtube.com/embed/zp1BXPX8jcU"
                     title="YouTube video player"
@@ -148,17 +148,17 @@ to the Louvre</h1>
                     <div class="two-column-section">
                         <div class="two-column-child tickets-text font-roboto ticket-type">
                             <p class="tickets-title"><strong>Ticket Type</strong></p>
-                            <div>
-                                <input checked id="ticketType1" name="ticket" type="radio">
-                                <label for="ticketType1">Permanent exhibition</label>
+                            <div class="form-radio">
+                                <input checked id="ticketType1" name="ticket" type="radio" value="radio1">
+                                <label for="ticketType1" class="radio-label">Permanent exhibition</label>
                             </div>
-                            <div>
-                                <input id="ticketType2" name="ticket" type="radio">
-                                <label for="ticketType2">Temporary exhibition</label>
+                            <div class="form-radio">
+                                <input id="ticketType2" name="ticket" type="radio" value="radio2">
+                                <label for="ticketType2" class="radio-label">Temporary exhibition</label>
                             </div>
-                            <div>
-                                <input id="ticketType3" name="ticket" type="radio">
-                                <label for="ticketType3">Combined Admission</label>
+                            <div class="form-radio">
+                                <input id="ticketType3" name="ticket" type="radio" value="#radio3">
+                                <label for="ticketType3" class="radio-label">Combined Admission</label>
                             </div>
                         </div>
                         <div class="two-column-child tickets-text font-roboto" id="amount">
@@ -172,14 +172,14 @@ to the Louvre</h1>
                                 <div class="rectangle"><span> -     </span> 1 <span>     + </span></div>
                             </div>
                             <p class="tickets-title font-roboto total"><strong>Total €220</strong></p>
-                            <button id="btn-buy" class="font-roboto">Buy now</button>
+                           <button id="btn-buy" class="font-roboto">Buy now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="contacts">
         <div>
             <h2 class="title gold font-forum">Contacts</h2>
             <hr class="contacts-hr">
@@ -207,23 +207,23 @@ to the Louvre</h1>
         </div>
         <div class="footer-cell font-roboto font-weight-thm">
             <div class="footer-nav-sub-section">
-                <p>Welcome</p>
-                <p>Visiting</p>
-                <p>Explore</p>
+                <p><a href="#welcome">Welcome</a></p>
+                <p><a href="#tour">Visiting</a></p>
+                <p><a href="#explore">Explore</a></p>
             </div>
             <div class="footer-nav-sub-section">
-                <p>Video</p>
-                <p>Tickets</p>
-                <p>Contacts</p>
+                <p> <a href="#video">Video</a></p>
+                <p> <a href="#tickets">Tickets</a></p>
+                <p> <a href="#contacts">Contacts</a></p>
             </div>
         </div>
         <div class="footer-cell">
             <div class="icons two-column-section footer-elem3">
-                <div><img alt="youtube" src="pic/youtube.svg"></div>
-                <div><img alt="instagram" src="pic/inst.svg"></div>
+                <div class="youtube"><img alt="youtube" src="pic/youtube.svg"></div>
+                <div class="inst"><img alt="instagram" src="pic/inst.svg"></div>
                 <div class="facebook"><img alt="facebook" src="pic/facebook.svg"></div>
-                <div><img alt="twitter" src="pic/twitter.svg"></div>
-                <div><img alt="pinterest" src="pic/pinterest.svg"></div>
+                <div class="twitter"><img alt="twitter" src="pic/twitter.svg"></div>
+                <div class="pinterest"><img alt="pinterest" src="pic/pinterest.svg"></div>
             </div>
         </div>
     </div>
