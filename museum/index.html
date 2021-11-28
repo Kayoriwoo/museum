@@ -7,6 +7,7 @@
     <link href="flexColumns.css" rel="stylesheet" type="text/css">
     <link href="blocks.css" rel="stylesheet" type="text/css">
     <link href="video.css" rel="stylesheet" type="text/css">
+    <link href="footer.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="black header-font">
@@ -29,7 +30,8 @@
             <h1 class="welcome-title font-forum">Welcome
 to the Louvre</h1>
             <p class="welcome-text font-roboto font-weight-thm">From the castle to the museum</p>
-            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre</button>
+            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre
+            </button>
         </div>
     </section>
     <section class="white">
@@ -162,12 +164,12 @@ to the Louvre</h1>
                         <div class="two-column-child tickets-text font-roboto" id="amount">
                             <p class="tickets-title"><strong>Amount</strong></p>
                             <div>
-                            <p>Basic 18+</p>
-                                <div class="rectangle">  <span>-</span>      1      <span>+</span>  </div>
+                                <p>Basic 18+</p>
+                                <div class="rectangle"><span> -     </span> 1 <span>     + </span></div>
                             </div>
                             <div class="senior">
-                            <p>Senior 65+</p>
-                                <div class="rectangle">  <span>-</span>      1      <span>+</span>  </div>
+                                <p>Senior 65+</p>
+                                <div class="rectangle"><span> -     </span> 1 <span>     + </span></div>
                             </div>
                             <p class="tickets-title font-roboto total"><strong>Total €220</strong></p>
                             <button id="btn-buy" class="font-roboto">Buy now</button>
@@ -175,49 +177,55 @@ to the Louvre</h1>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
     <section>
         <div>
-            <h2>Contacts</h2>
-            <hr>
-            <address>
-                <p>Palais Royal</p>
-                <p>Musee du Louvre</p>
-                address: 75001 Paris, France
-                phone: +33(0) 1 40 20 50 50
-                mail: info@louvre.fr
-            </address>
-            <img alt="Map" src="pic/contacts.png">
+            <h2 class="title gold font-forum">Contacts</h2>
+            <hr class="contacts-hr">
+            <div class="two-column-section">
+                <div class="contacts">
+                    <div class="contacts-title font-roboto">
+                        <p>Palais Royal</p>
+                        <p>Musee du Louvre</p>
+                    </div>
+                    <address class="font-roboto">
+                        <p>address: 75001 Paris, France</p>
+                        <p>phone: +33(0) 1 40 20 50 50</p>
+                        <p>mail: info@louvre.fr</p>
+                    </address>
+                </div>
+                <img alt="Map" src="pic/contacts.png">
+            </div>
         </div>
     </section>
 </main>
 <footer>
-    <div>
-        <img alt="logo" src="pic/Vector1.svg">
-        <p>LOUVRE</p>
-    </div>
-    <div>
-        <p>Visiting</p>
-        <p>Explore</p>
-        <p>Video</p>
-        <p>Tickets</p>
-        <p>Contacts</p>
-    </div>
-    <div>
-        <img alt="youtube" src="pic/youtube.svg">
-    </div>
-    <div>
-        <img alt="instagram" src="pic/inst.svg">
-    </div>
-    <div>
-        <img alt="facebook" src="pic/facebook.svg">
-    </div>
-    <div>
-        <img alt="twitter" src="pic/twitter.svg">
-    </div>
-    <div>
-        <img alt="pinterest" src="pic/pinterest.svg">
+    <div id="footer-content">
+        <div class="footer-cell">
+            <p id="footer-title" class="font-forum footer-logo footer-elem2">LOUVRE</p>
+        </div>
+        <div class="footer-cell font-roboto font-weight-thm">
+            <div class="footer-nav-sub-section">
+                <p>Welcome</p>
+                <p>Visiting</p>
+                <p>Explore</p>
+            </div>
+            <div class="footer-nav-sub-section">
+                <p>Video</p>
+                <p>Tickets</p>
+                <p>Contacts</p>
+            </div>
+        </div>
+        <div class="footer-cell">
+            <div class="icons two-column-section footer-elem3">
+                <div><img alt="youtube" src="pic/youtube.svg"></div>
+                <div><img alt="instagram" src="pic/inst.svg"></div>
+                <div class="facebook"><img alt="facebook" src="pic/facebook.svg"></div>
+                <div><img alt="twitter" src="pic/twitter.svg"></div>
+                <div><img alt="pinterest" src="pic/pinterest.svg"></div>
+            </div>
+        </div>
     </div>
 </footer>
 </body>
