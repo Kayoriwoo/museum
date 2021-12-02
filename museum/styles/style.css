@@ -109,7 +109,7 @@ header {
     position: relative;
     bottom: 2px;
     content: ' ';
-    background-image: url('image/Vector1.svg');
+    background-image: url('../image/Vector1.svg');
     background-size: 50px 50px;
     background-repeat: no-repeat;
     height: 54px;
@@ -164,7 +164,7 @@ ol, ul {
 }
 
 .welcome-bg {
-    background: #030303 url("image/welcom.jpg") no-repeat center right;
+    background: #030303 url("../image/welcom.jpg") no-repeat center right;
 }
 
 .welcome__title {
@@ -531,7 +531,7 @@ address p {
     position: relative;
     bottom: 5px;
     content: ' ';
-    background-image: url('image/Vector1.svg');
+    background-image: url('../image/Vector1.svg');
     background-size: 50px 50px;
     background-repeat: no-repeat;
     height: 54px;
