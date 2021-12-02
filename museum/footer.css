@@ -48,7 +48,7 @@ footer {
     width: 505px;
 }
 
-.footer__content .footer-cell .footer-nav-sub-section p {
+.footer__content .footer-cell .footer-nav-sub-section li {
     letter-spacing: 2px;
     margin-bottom: 22px;
 }

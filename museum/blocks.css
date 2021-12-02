@@ -1,4 +1,10 @@
-section > div:first-child {
-    width: 1500px;
-    margin: 70px 0 0 240px;
+.section__welcome {
+    padding: 35px 0;
 }
+
+section > div:first-child {
+    width: 1450px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+

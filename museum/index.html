@@ -15,17 +15,19 @@
         <div class="header__logo">
         </div>
         <h1 class="header__logo-font font-forum">LOUVRE</h1>
-        <div class="font-roboto font-weight-thm header__text">
-            <p><a href="#tour">Visiting</a></p>
-            <p><a href="#explore">Explore</a></p>
-            <p> <a href="#video">Video</a></p>
-            <p> <a href="#tickets">Tickets</a></p>
-            <p> <a href="#contacts">Contacts</a></p>
-        </div>
+        <nav class=" header__navigation">
+            <ul class="header_container--list font-roboto font-weight-thm">
+            <li><a href="#tour">Visiting</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li> <a href="#video">Video</a></li>
+            <li> <a href="#tickets">Tickets</a></li>
+            <li> <a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <main>
-    <section class="black welcome-bg">
+    <section id="welcome" class="black welcome-bg section__welcome">
         <div class="welcome">
             <h2 class="welcome__title font-forum">Welcome
 to the Louvre</h2>
@@ -34,7 +36,7 @@ to the Louvre</h2>
             </button>
         </div>
     </section>
-    <section class="white">
+    <section id="tour" class="white">
         <div class="tour">
             <h2 class="title font-forum gold">Virtual Tour</h2>
             <hr class="title__hr tour__hr">
@@ -96,7 +98,7 @@ to the Louvre</h2>
             </div>
         </div>
     </section>
-    <section class="black">
+    <section id="explore" class="black explore">
         <div>
             <div class="two-column-section explore-section">
                 <div class="two-column-child">
@@ -117,7 +119,7 @@ to the Louvre</h2>
             </div>
         </div>
     </section>
-    <section class="white video">
+    <section id="video" class="white video">
         <div>
             <iframe class="video__iframe" src="https://www.youtube.com/embed/zp1BXPX8jcU"
                     title="YouTube video player"
@@ -136,7 +138,7 @@ to the Louvre</h2>
             </div>
         </div>
     </section>
-    <section class="black">
+    <section id="tickets" class="black">
         <div class="tickets">
             <h2 class="title font-forum">Buy tickets</h2>
             <hr class="tickets__hr">
@@ -179,17 +181,17 @@ to the Louvre</h2>
             </div>
         </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts">
         <div>
             <h2 class="title gold font-forum">Contacts</h2>
             <hr class="contacts__hr">
             <div class="two-column-section">
-                <div class="contacts">
-                    <div class="contacts__title font-roboto">
+                <div class="contacts two-column-child">
+                    <div class="contacts__title two-column-child font-roboto">
                         <p>Palais Royal</p>
                         <p>Musee du Louvre</p>
                     </div>
-                    <address class="font-roboto">
+                    <address class="font-roboto two-column-child">
                         <p>address: 75001 Paris, France</p>
                         <p>phone: +33(0) 1 40 20 50 50</p>
                         <p>mail: info@louvre.fr</p>
@@ -206,16 +208,20 @@ to the Louvre</h2>
             <p class="footer-title font-forum footer__logo footer-elem2">LOUVRE</p>
         </div>
         <div class="footer-cell font-roboto font-weight-thm">
-            <div class="footer-nav-sub-section">
-                <p><a href="#welcome">Welcome</a></p>
-                <p><a href="#tour">Visiting</a></p>
-                <p><a href="#explore">Explore</a></p>
-            </div>
-            <div class="footer-nav-sub-section">
-                <p> <a href="#video">Video</a></p>
-                <p> <a href="#tickets">Tickets</a></p>
-                <p> <a href="#contacts">Contacts</a></p>
-            </div>
+            <nav class="footer-nav-sub-section">
+                <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#tour">Visiting</a></li>
+                <li><a href="#explore">Explore</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav-sub-section">
+                <ul>
+                <li> <a href="#video">Video</a></li>
+                <li> <a href="#tickets">Tickets</a></li>
+                <li> <a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="footer-cell">
             <div class="icons two-column-section footer-elem3">
