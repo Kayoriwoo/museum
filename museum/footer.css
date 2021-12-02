@@ -5,7 +5,7 @@ footer {
     color: white;
 }
 
-#footer-content {
+.footer__content {
     align-self: auto;
     display: flex;
     flex-direction: row;
@@ -14,41 +14,41 @@ footer {
     width: 1450px;
 }
 
-#footer-content .footer-cell {
+.footer__content .footer-cell {
     display: flex;
 }
 
-#footer-content .footer-cell:nth-child(1) {
+.footer__content .footer-cell:nth-child(1) {
     width: 350px;
 }
 
-#footer-content .footer-cell:nth-child(2) {
+.footer__content .footer-cell:nth-child(2) {
     display: flex;
     flex-direction: row;
     width: 760px;
     padding-top: 5px;
 }
 
-#footer-content .footer-cell:nth-child(3) {
+.footer__content .footer-cell:nth-child(3) {
     width: 340px;
     align-items: flex-end;
     justify-content: flex-end;
     padding: 0 5px 5px 0;
 }
 
-#footer-content .footer-cell .footer-nav-sub-section {
+.footer__content .footer-cell .footer-nav-sub-section {
     font-size: 22px;
 }
 
-#footer-content .footer-cell .footer-nav-sub-section:nth-child(1) {
+.footer__content .footer-cell .footer-nav-sub-section:nth-child(1) {
     width: 265px;
 }
 
-#footer-content .footer-cell .footer-nav-sub-section:nth-child(2) {
+.footer__content .footer-cell .footer-nav-sub-section:nth-child(2) {
     width: 505px;
 }
 
-#footer-content .footer-cell .footer-nav-sub-section p {
+.footer__content .footer-cell .footer-nav-sub-section p {
     letter-spacing: 2px;
     margin-bottom: 22px;
 }
