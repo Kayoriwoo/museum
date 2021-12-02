@@ -3,123 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <title>Museum</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="flexColumns.css" rel="stylesheet" type="text/css">
-    <link href="blocks.css" rel="stylesheet" type="text/css">
-    <link href="video.css" rel="stylesheet" type="text/css">
-    <link href="footer.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/flexColumns.css" rel="stylesheet" type="text/css">
+    <link href="styles/blocks.css" rel="stylesheet" type="text/css">
+    <link href="styles/video.css" rel="stylesheet" type="text/css">
+    <link href="styles/footer.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="black header-font">
-    <div id="header">
-        <div id="logo">
+    <div class="header">
+        <div class="header__logo">
         </div>
-        <p class="logo-font font-forum">LOUVRE</p>
-        <div class="font-roboto font-weight-thm" id="header-text">
-            <p><a href="#tour">Visiting</a></p>
-            <p><a href="#explore">Explore</a></p>
-            <p> <a href="#video">Video</a></p>
-            <p> <a href="#tickets">Tickets</a></p>
-            <p> <a href="#contacts">Contacts</a></p>
-        </div>
+        <h1 class="header__logo-font font-forum">LOUVRE</h1>
+        <nav class=" header__navigation">
+            <ul class="header_container--list font-roboto font-weight-thm">
+            <li><a href="#tour">Visiting</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li> <a href="#video">Video</a></li>
+            <li> <a href="#tickets">Tickets</a></li>
+            <li> <a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <main>
-    <section class="black welcome-bg">
-        <div id="welcome">
-            <h1 class="welcome-title font-forum">Welcome
-to the Louvre</h1>
-            <p class="welcome-text font-roboto font-weight-thm">From the castle to the museum</p>
-            <button class="btn-content-center font-roboto font-weight-thm" id="welcome-button">Discover the Louvre
+    <section id="welcome" class="black welcome-bg section__welcome">
+        <div class="welcome">
+            <h2 class="welcome__title font-forum">Welcome
+to the Louvre</h2>
+            <p class="welcome__text font-roboto font-weight-thm">From the castle to the museum</p>
+            <button class="welcome-button btn-content-center font-roboto font-weight-thm">Discover the Louvre
             </button>
         </div>
     </section>
-    <section class="white">
-        <div id="tour">
+    <section id="tour" class="white">
+        <div class="tour">
             <h2 class="title font-forum gold">Virtual Tour</h2>
-            <hr class="title-hr tour-hr">
-            <div id="articles">
+            <hr class="title__hr tour__hr">
+            <div class="articles">
                 <article>
-                    <img alt="Royal place" src="pic/visiting1.jpg">
+                    <img alt="Royal place" src="image/visiting1.jpg">
                     <div>
                         <h3 class="font-forum">Royal palace</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
                 <article>
-                    <img alt="Denon wing" src="pic/visiting2.jpg">
+                    <img alt="Denon wing" src="image/visiting2.jpg">
                     <div>
                         <h3 class="font-forum">Denon wing</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
                 <article>
-                    <img alt="Colonnade perrault" src="pic/visiting3.jpg">
+                    <img alt="Colonnade perrault" src="image/visiting3.jpg">
                     <div>
                         <h3 class="font-forum">Colonnade perrault</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
                 <article>
-                    <img alt="Greek hall" src="pic/visiting4.jpg">
+                    <img alt="Greek hall" src="image/visiting4.jpg">
                     <div>
                         <h3 class="font-forum">Greek hall</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
                 <article>
-                    <img alt="Mona Lisa" src="pic/visiting5.jpg">
+                    <img alt="Mona Lisa" src="image/visiting5.jpg">
                     <div>
                         <h3 class="font-forum">Mona Lisa</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
                 <article>
-                    <img alt="Night palace" src="pic/visiting6.jpg">
+                    <img alt="Night palace" src="image/visiting6.jpg">
                     <div>
                         <h3 class="font-forum">Night palace</h3>
                         <hr>
-                        <p class="tour-text font-roboto font-weight-thm">360° Virtual Tour</p>
+                        <p class="tour__text font-roboto font-weight-thm">360° Virtual Tour</p>
                         <p class="font-roboto font-weight-thm">Google Street Panorama View </p>
                     </div>
                 </article>
             </div>
         </div>
     </section>
-    <section class="black" id="explore">
+    <section id="explore" class="black explore">
         <div>
             <div class="two-column-section explore-section">
                 <div class="two-column-child">
                     <h2 class="title font-forum">Picture explore</h2>
-                    <hr class="explore-hr">
-                    <div class="font-roboto font-weight-thm explore-text">
-                        <p class="explore-text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of
+                    <hr class="explore__hr">
+                    <div class="font-roboto font-weight-thm explore__text">
+                        <p class="explore__text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of
                             the Spanish Golden Age.</p>
-                        <p class="explore-text">It was cleaned in 1984 to remove a <span class="white-gold">"yellow veil"</span>
+                        <p class="explore__text">It was cleaned in 1984 to remove a <span class="white-gold">"yellow veil"</span>
                             of dust that had gathered since the previous restoration in the 19th century.</p>
-                        <p class="explore-text" id="explore-text3">The cleaning provoked furious protests, not because
+                        <p class="explore__text explore__text-p3">The cleaning provoked furious protests, not because
                             the picture had been damaged in any way, but because it looked different.</p>
                     </div>
                 </div>
                 <div class="two-column-child">
-                    <img alt="Las Meninas" src="pic/explore.jpg">
+                    <img alt="Las Meninas" src="image/explore.jpg">
                 </div>
             </div>
         </div>
     </section>
-    <section class="white" id="video">
+    <section id="video" class="white video">
         <div>
-            <iframe class="video" src="https://www.youtube.com/embed/zp1BXPX8jcU"
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/zp1BXPX8jcU"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -129,25 +131,25 @@ to the Louvre</h1>
                     <h2 class="font-forum title gold">Video journey</h2>
                 </div>
                 <div class="two-column-child">
-                    <p class="video-text font-roboto font-weight-thm">Enter and visit one of the most famous museums in
+                    <p class="video__text font-roboto font-weight-thm">Enter and visit one of the most famous museums in
                         the world and enjoy masterpieces such as Mona Lisa or
                         Hammurabi's Code</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="black">
-        <div id="tickets">
+    <section id="tickets" class="black">
+        <div class="tickets">
             <h2 class="title font-forum">Buy tickets</h2>
-            <hr class="tickets-hr">
+            <hr class="tickets__hr">
             <div class="two-column-section">
                 <div class="two-column-child">
-                    <img alt="Shield of Aeneas" src="pic/tickets.jpg">
+                    <img alt="Shield of Aeneas" src="image/tickets.jpg">
                 </div>
                 <div class="two-column-child">
                     <div class="two-column-section">
-                        <div class="two-column-child tickets-text font-roboto ticket-type">
-                            <p class="tickets-title"><strong>Ticket Type</strong></p>
+                        <div class="two-column-child tickets__text font-roboto ticket-type">
+                            <p class="tickets__title"><strong>Ticket Type</strong></p>
                             <div class="form-radio">
                                 <input checked id="ticketType1" name="ticket" type="radio" value="radio1">
                                 <label for="ticketType1" class="radio-label">Permanent exhibition</label>
@@ -161,17 +163,17 @@ to the Louvre</h1>
                                 <label for="ticketType3" class="radio-label">Combined Admission</label>
                             </div>
                         </div>
-                        <div class="two-column-child tickets-text font-roboto" id="amount">
-                            <p class="tickets-title"><strong>Amount</strong></p>
+                        <div class="two-column-child tickets__text font-roboto tickets__amount">
+                            <p class="tickets__title"><strong>Amount</strong></p>
                             <div>
                                 <p>Basic 18+</p>
                                 <div class="rectangle"><span> -     </span> 1 <span>     + </span></div>
                             </div>
-                            <div class="senior">
+                            <div class="tickets__amount__senior">
                                 <p>Senior 65+</p>
                                 <div class="rectangle"><span> -     </span> 1 <span>     + </span></div>
                             </div>
-                            <p class="tickets-title font-roboto total"><strong>Total €220</strong></p>
+                            <p class="tickets__title font-roboto tickets__total"><strong>Total €220</strong></p>
                            <button id="btn-buy" class="font-roboto">Buy now</button>
                         </div>
                     </div>
@@ -179,51 +181,55 @@ to the Louvre</h1>
             </div>
         </div>
     </section>
-    <section id="contacts">
+    <section id="contacts" class="contacts">
         <div>
             <h2 class="title gold font-forum">Contacts</h2>
-            <hr class="contacts-hr">
+            <hr class="contacts__hr">
             <div class="two-column-section">
-                <div class="contacts">
-                    <div class="contacts-title font-roboto">
+                <div class="contacts two-column-child">
+                    <div class="contacts__title two-column-child font-roboto">
                         <p>Palais Royal</p>
                         <p>Musee du Louvre</p>
                     </div>
-                    <address class="font-roboto">
+                    <address class="font-roboto two-column-child">
                         <p>address: 75001 Paris, France</p>
                         <p>phone: +33(0) 1 40 20 50 50</p>
                         <p>mail: info@louvre.fr</p>
                     </address>
                 </div>
-                <img alt="Map" src="pic/contacts.png">
+                <img alt="Map" src="image/contacts.png">
             </div>
         </div>
     </section>
 </main>
 <footer>
-    <div id="footer-content">
+    <div class="footer__content">
         <div class="footer-cell">
-            <p id="footer-title" class="font-forum footer-logo footer-elem2">LOUVRE</p>
+            <p class="footer-title font-forum footer__logo footer-elem2">LOUVRE</p>
         </div>
         <div class="footer-cell font-roboto font-weight-thm">
-            <div class="footer-nav-sub-section">
-                <p><a href="#welcome">Welcome</a></p>
-                <p><a href="#tour">Visiting</a></p>
-                <p><a href="#explore">Explore</a></p>
-            </div>
-            <div class="footer-nav-sub-section">
-                <p> <a href="#video">Video</a></p>
-                <p> <a href="#tickets">Tickets</a></p>
-                <p> <a href="#contacts">Contacts</a></p>
-            </div>
+            <nav class="footer-nav-sub-section">
+                <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#tour">Visiting</a></li>
+                <li><a href="#explore">Explore</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav-sub-section">
+                <ul>
+                <li> <a href="#video">Video</a></li>
+                <li> <a href="#tickets">Tickets</a></li>
+                <li> <a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="footer-cell">
             <div class="icons two-column-section footer-elem3">
-                <div class="youtube"><img alt="youtube" src="pic/youtube.svg"></div>
-                <div class="inst"><img alt="instagram" src="pic/inst.svg"></div>
-                <div class="facebook"><img alt="facebook" src="pic/facebook.svg"></div>
-                <div class="twitter"><img alt="twitter" src="pic/twitter.svg"></div>
-                <div class="pinterest"><img alt="pinterest" src="pic/pinterest.svg"></div>
+                <div class="youtube"><img alt="youtube" src="image/youtube.svg"></div>
+                <div class="inst"><img alt="instagram" src="image/inst.svg"></div>
+                <div class="facebook"><img alt="facebook" src="image/facebook.svg"></div>
+                <div class="twitter"><img alt="twitter" src="image/twitter.svg"></div>
+                <div class="pinterest"><img alt="pinterest" src="image/pinterest.svg"></div>
             </div>
         </div>
     </div>

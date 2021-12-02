@@ -7,7 +7,10 @@
     width: 50%;
 }
 
-.two-column-section img {
-    margin-top: 10px;
+.two-column-section div img {
+    margin-top: 15px;
 }
 
+.icons div img {
+    margin-top: 10px;
+}
