@@ -63,23 +63,23 @@ section {
 /*    margin: 0 auto;*/
 /*}*/
 
-/*:root {*/
-/*    --header-outer-height: 250px;*/
-/*    --header-inner-height: 250px;*/
-/*    --header-height-difference: calc(*/
-/*            var(--header-outer-height) - var(--header-inner-height)*/
-/*    );*/
-/*}*/
+:root {
+    --header-outer-height: 200px;
+    --header-inner-height: 80px;
+    --header-height-difference: calc(
+            var(--header-outer-height) - var(--header-inner-height)
+    );
+}
 
 header {
     display: flex;
-    position: sticky;
     align-items: center;
+    height: var(--header-outer-height);
+    position: sticky;
+    top: calc(
+            var(--header-height-difference) * -1
+    ); /* Multiply by -1 to get a negative value */
     z-index: 2;
-    height: 200px;
-    /*top: calc(*/
-    /*        var(--header-height-difference) * -1*/
-    /*); !* Multiply by -1 to get a negative value *!*/
 }
 
 .header__logo {
@@ -92,12 +92,16 @@ header {
 .header {
     display: flex;
     align-items: center;
+    height: var(--header-inner-height);
+    /*height: 200px;*/
+    position: sticky;
+    top: 0;
+
     justify-content: space-around;
     border-radius: 0;
     width: 1920px;
     /*height: var(--header-inner-height);*/
-    /*position: sticky;*/
-    /*top: 0;*/
+
 }
 
 .header__logo:before {
