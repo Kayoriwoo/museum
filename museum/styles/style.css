@@ -10,6 +10,11 @@ body {
     /*min-width: 1450px;*/
 }
 
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
 .container {
     max-width: 1450px;
     margin: 0 auto;
