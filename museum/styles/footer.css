@@ -11,7 +11,7 @@ footer {
     flex-direction: row;
     height: 135px;
     margin: auto;
-    width: 1450px;
+    width:  75.520833333%;
 }
 
 .footer__content .footer-cell {
