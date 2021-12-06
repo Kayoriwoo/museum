@@ -1,0 +1,16 @@
+.two-column-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-column-section > .two-column-child {
+    width: 50%;
+}
+
+.two-column-section div img {
+    margin-top: 15px;
+}
+
+.icons div img {
+    margin-top: 10px;
+}
